@@ -167,3 +167,43 @@ ul.list li {
 ul.list li a:hover {
     color: var(--primary-color);
 }
+
+
+/**
+  * BUTTONS
+***/
+
+.btn {
+    display: inline-block;
+    border: none;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    padding: .5rem 1.5rem;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #FFF;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: #FFF;
+}
+
+.btn-dark {
+    background-color: var(--dark-color);
+    color: #FFF;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    transition: opacity .3s;
+    cursor: pointer;
+}
