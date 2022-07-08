@@ -81,3 +81,89 @@ h6 {
  ::selection {
     background-color: rgba(200, 70, 48, 0.4);
 }
+
+
+/**
+  * UTILITY CLASSES
+***/
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.card {
+    background: #FFF;
+    padding: 2rem;
+}
+
+.bg-light {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.bg-dark {
+    background-color: var(--dark-color);
+    color: #FFF;
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+    color: #FFF;
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color);
+    color: #FFF;
+}
+
+.bg-dark a,
+.bg-primary a,
+.bg-secondary a {
+    color: #FFF;
+}
+
+.py-1 {
+    padding: 1.5rem 0;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+.p-1 {
+    padding: 1.5rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-3 {
+    padding: 3rem;
+}
+
+.l-heading {
+    font-size: 3rem;
+}
+
+.m-heading {
+    font-size: 2.2rem;
+}
+
+.sm-heading {
+    font-size: 1.7rem;
+}
+
+ul.list li {
+    padding: 0.5rem;
+    border-bottom: dotted 1px #444;
+}
+
+ul.list li a:hover {
+    color: var(--primary-color);
+}
