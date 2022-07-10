@@ -328,16 +328,16 @@ ul.list li a:hover {
     grid-gap: 1rem;
 }
 
-.card-grip {
+.card-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
 }
 
-#home-articles .card-grip:first-child {
+#home-articles .card-grid:first-child {
     grid-column: 1/span 2;
 }
 
-#home-articles .card-grip:last-child {
+#home-articles .card-grid:last-child {
     grid-column: 2/span 2;
 }
