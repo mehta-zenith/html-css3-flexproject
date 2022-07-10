@@ -210,6 +210,33 @@ ul.list li a:hover {
 
 
 /**
+  * CATEGORY PILLS
+***/
+
+.category {
+    display: inline-block;
+    color: #FFF;
+    font-size: .55rem;
+    text-transform: uppercase;
+    padding: .4rem .6rem;
+    border-radius: 15px;
+    margin-bottom: .5rem;
+}
+
+.category-sports {
+    background-color: var(--category-sports);
+}
+
+.category-tech {
+    background-color: var(--category-tech);
+}
+
+.category-ent {
+    background-color: var(--category-ent);
+}
+
+
+/**
   * NAVBAR
 ***/
 
@@ -258,4 +285,34 @@ ul.list li a:hover {
 
 #navbar .social a {
     padding: .7rem;
+}
+
+
+/**
+  * SHOWCASE
+***/
+
+#showcase {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    position: relative;
+    min-height: 50vh;
+}
+
+#showcase:before {
+    background: url('/assets/UQRmpDYGlvp1.jpg') no-repeat center center;
+    background-size: cover;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1
+}
+
+#showcase .container {
+    padding: 75px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
