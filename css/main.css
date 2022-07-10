@@ -341,3 +341,36 @@ ul.list li a:hover {
 #home-articles .card-grid:last-child {
     grid-column: 2/span 2;
 }
+
+
+/**
+  * footer
+***/
+
+#main-footer .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+#main-footer .container .grid-full {
+    grid-column: 1/span 4;
+}
+
+.grid-full p {
+    background: #444;
+    padding: .4rem;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.hearts {
+    color: red;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .55rem;
+    margin-bottom: .5rem;
+}
