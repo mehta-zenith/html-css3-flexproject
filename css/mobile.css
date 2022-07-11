@@ -1,0 +1,31 @@
+.container {
+    max-width: 90%;
+}
+
+.social {
+    display: none;
+}
+
+#navbar .container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#showcase .container,
+#main-footer .container,
+.articles-container,
+.card-grid {
+    grid-template-columns: 1fr;
+}
+
+#home-articles .card-grid:first-child {
+    grid-column: 1;
+}
+
+#main-footer .container .grid-full,
+#home-articles .card-grid:last-child {
+    grid-column: 1;
+}
+
+.container.page-content {
+    grid-template-columns: 1fr;
+}

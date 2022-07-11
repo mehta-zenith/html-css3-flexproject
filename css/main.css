@@ -374,3 +374,30 @@ ul.list li a:hover {
     padding: .55rem;
     margin-bottom: .5rem;
 }
+
+
+/* .animate {
+    position: relative;
+}
+
+.fadeinfromleft {
+    animation: fade-in-left .5s ease-in-out;
+}
+
+@keyframes fade-in-left {
+    from {
+        left: -50px;
+    }
+    to {
+        left: 0;
+    }
+} */
+
+
+/* animate.style search google */
+
+
+/* overflow: hidden  this is will hide the scrollbar if there is a overflow */
+
+
+/* wow.js this will reveal animation on scroll this is will work with animate.style website css */
